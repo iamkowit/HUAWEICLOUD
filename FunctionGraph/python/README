@@ -1,0 +1,11 @@
+Required 
+
+Dependencies
+- openstacksdk-1.0.6
+- Agencies
+
+Environment Variables
+- Region
+- white_list
+
+
