@@ -1,0 +1,7 @@
+CREATE TABLE `logging` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `server` varchar(32) NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `serverip` varchar(32) DEFAULT '0.0.0.0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=862 DEFAULT CHARSET=utf8mb4;
